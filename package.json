@@ -1,0 +1,32 @@
+{
+    "name": "pdfjs-dist-signature-bt",
+    "version": "2.7.571",
+    "description": "A custom build of pdf.js that supports signature",
+    "license": "Apache-2.0",
+    "keywords": [
+        "react",
+        "react.js",
+        "pdf",
+        "pdf.js",
+        "pdf viewer"
+    ],
+    "main": "build/pdf.js",
+    "files": [
+        "build/*.*",
+        "es5/*.*"
+    ],
+    "browser": {
+        "fs": false,
+        "http": false,
+        "https": false,
+        "url": false,
+        "zlib": false
+    },
+    "publishConfig": {
+        "access": "public"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/tuananhht94/pdfjs-dist-signature-bt.git"
+    }
+}
